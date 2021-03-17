@@ -1,0 +1,21 @@
+.question__container {
+  width: 84vw;
+  max-width: 1616px;
+  min-height: 522px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+@media screen and (max-width: 1600px) {
+  .question__container {
+    min-width: 100%;
+    overflow: hidden;
+  }
+}
+@media screen and (max-width: 600px) {
+  .question__container {
+    min-height: 263px;
+  }
+}

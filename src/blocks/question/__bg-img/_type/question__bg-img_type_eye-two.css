@@ -1,0 +1,20 @@
+.question__bg-img_type_eye-two {
+  background-image: url("../../../../images/question-eye2.svg");
+  width: 164px;
+  height: 164px;
+  bottom: 0;
+  left: 0;
+}
+@media screen and (max-width: 1600px) {
+  .question__bg-img_type_eye-two {
+    left: -43px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .question__bg-img_type_eye-two {
+    width: 52px;
+    height: 52px;
+    left: -16px;
+  }
+}

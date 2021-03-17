@@ -1,0 +1,19 @@
+.question__inscription {
+  font-family: 'Bad Script', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  margin: 80px auto 82px;
+  font-weight: 300;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+  color: #FFFFFF;
+  max-width: 250px;
+}
+
+@media screen and (max-width: 600px) {
+  .question__inscription {
+    font-size: 20px;
+    line-height: 28px;
+    margin: 38px auto 33px;
+  }
+}

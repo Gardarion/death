@@ -1,0 +1,6 @@
+.question__bg-img {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .2;
+}

@@ -1,0 +1,21 @@
+.question__title {
+  margin: 0 auto 48px;
+  max-width: 500px;
+  text-align: center;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  color: #F6C866;
+  max-width: 500px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  .question__title {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 27px;
+  }
+}

@@ -1,0 +1,9 @@
+.float-card__title-yellow{
+  color: #F6C866;
+}
+@media screen and (max-width: 600px) {
+  .float-card__title-yellow {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}

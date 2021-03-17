@@ -1,0 +1,31 @@
+.cover__container {
+  min-height: 606px;
+  position: relative;
+  overflow: hidden;
+}
+
+.cover__container::after {
+  content: '';
+  position: absolute;
+  top: -176px;
+  left: 0;
+  width: 1440px;
+  height: 800px;
+  background-image: url("../../../images/cover-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .2;
+  z-index: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .cover__container {
+    min-height: 331px;
+  }
+  .cover__container::after {
+    top: 0;
+    left: -89px;
+    width: 498px;
+    height: 331px;
+  }
+}

@@ -1,0 +1,18 @@
+.float-card__title {
+  margin: 128px auto 0;
+  text-align: center;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  color: #FFFFFF;
+}
+
+@media screen and (max-width: 600px) {
+  .float-card__title {
+    margin-top: 55px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+}

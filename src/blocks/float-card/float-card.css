@@ -1,0 +1,9 @@
+.float-card {
+  padding: 142px 0 69px;
+}
+
+@media screen and (max-width: 600px) {
+  .float-card {
+    padding: 79px 0 40px;
+  }
+}

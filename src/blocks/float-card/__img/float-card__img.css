@@ -1,0 +1,15 @@
+.float-card__img {
+  width: 135px;
+  height: 135px;
+  position: absolute;
+  top: -70px;
+  left: 152px;
+}
+@media screen and (max-width: 600px) {
+  .float-card__img {
+    width: 78px;
+    height: 78px;
+    top: -41px;
+    left: 87px;
+  }
+}

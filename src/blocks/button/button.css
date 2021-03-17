@@ -1,0 +1,58 @@
+@keyframes move_bg {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+.button {
+  margin: 0 auto;
+  padding: 0;
+  width: 310px;
+  height: 69px;
+  border: none;
+  border-radius: 50px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  color: #FFFFFF;
+  background: linear-gradient(90deg, rgba(246, 200, 102, 0.9) -6.2%, rgba(254, 173, 53, 0.9) 100%);
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  position: relative;
+  cursor: pointer;
+}
+
+.button:focus{
+  outline: none;
+}
+
+.button:last-of-type {
+  margin: 35px auto 35px;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+  background: linear-gradient(248.67deg, rgba(255, 255, 255, 0) 30.84%, rgba(255, 255, 255, 0.29) 46.06%, rgba(255, 255, 255, 0) 64.04%);
+  width: 50%;
+  height: 100%;
+  top: 0;
+  animation: move_bg 2s linear infinite;
+}
+
+@media screen and (max-width: 600px) {
+  .button {
+    width: 180px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .button:last-of-type {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}

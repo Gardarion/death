@@ -1,0 +1,22 @@
+.question__bg-img_type_eye-one {
+  background-image: url("../../../../images/question-eye1.svg");
+  width: 317px;
+  height: 181px;
+  top: 9px;
+  right: 0;
+}
+@media screen and (max-width: 1600px) {
+  .question__bg-img_type_eye-one {
+    top: 9px;
+    right: -131px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .question__bg-img_type_eye-one {
+    width: 84px;
+    height: 44px;
+    top: 37px;
+    right: -27px;
+  }
+}
